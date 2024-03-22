@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Fuzzy+Bubbles:wght@400;700&family=Nanum+Brush+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Fuzzy Bubbles", sans-serif;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/background.jpg");
+    justify-content: center;
+    align-items: center;
+}
+
+:root {
+    --white: #f8f8f8;
+    --yellow: #ffdb58;
+    --red: #b30606;
+    --orange: #ffa459;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background: var(--white);
+    gap: 40px;
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    background-image: url("../img/quadro.jpg");
+    padding: 120px 30px;
+    border: 10px solid var(--yellow);
+}
+
+.content h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #ffdb58;
+}
+
+.menu p {
+    color: var(--white);
+    font-size: 30px;
+}
+
+ul {
+    list-style: none;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.form label {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.form input {
+    display: block;
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+.content-form {
+    display: flex;
+    gap: 10px;
+}
+
+.botao {
+    padding: 8px;
+    background-color: var(--red);
+    color: var(--white);
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.form p {
+    font-size: 40px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: var(--orange);
+}
+
+.form p.error {
+    font-size: 20px;
+    color: red;
+}
+
+.form img {
+    width: 600px;
+}
+
+.form button {
+    font-size: 20px;
+    padding: 15px;
+    background-color: var(--red);
+    color: var(--white);
+    border-radius: 10px;
+    margin-top: -30px;
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .menu {
+        padding: 20px;
+    }
+
+    .content h1 {
+        font-size: 40px;
+    }
+
+    .menu p {
+        font-size: 25px;
+    }
+
+    .form label {
+        font-size: 20px;
+    }
+
+    .form input {
+        padding: 6px;
+        font-size: 13px;
+    }
+
+    .form p {
+        font-size: 30px;
+    }
+
+    .form button {
+        font-size: 18px;
+        padding: 12px;
+    }
+
+    .form img {
+        width: 400px;
+    }
+}
