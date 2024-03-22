@@ -97,7 +97,7 @@
                         // Buscar o prato do dia
                         $prato_dia = $pratos_dia[$codigo];
 
-                        // Exibir o prato do dia
+                        // Exibir as informacoes
                         echo "<p>{$prato_dia["prato"]}</p>";
                         echo "<img src='{$prato_dia["imagem"]}' alt='{$prato_dia["prato"]}'>";
                         echo "<button>Preço: {$prato_dia["preco"]}</button>";
