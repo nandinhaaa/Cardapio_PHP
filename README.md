@@ -5,15 +5,14 @@ Antes de começar, você precisa ter instalado em sua máquina:
 + Servidor web (como Apache ou Nginx)
 + Banco de dados (opcional, mas muitas vezes necessário)
 
-## Como executar o projeto
+## Como executar
 O PHP vem com um servidor embutido que você pode usar para executar seu projeto localmente.
 Abra seu navegador e acesse ```http://localhost:8000```. Você deverá ver a mensagem "Olá, mundo!".
 
 ## Usando um Servidor Web
 Se você preferir usar um servidor web como Apache ou Nginx, siga as instruções de instalação e configuração específicas para o seu servidor.
 
-<hr>
-
+## Projeto
 ![Screenshot_1](https://github.com/amxanda/cardapio-php/assets/91753947/7dfcc5c7-890d-4057-8650-9c26f3cdc88d)
 
 <p align="">
