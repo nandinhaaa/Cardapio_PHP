@@ -18,8 +18,8 @@
                 <li><p>2: Terça</p></li>
                 <li><p>3: Quarta</p></li>
                 <li><p>4: Quinta</p></li>
-                <li><p>6: Sexta</p></li>
-                <li><p>7: Sábado</p></li>
+                <li><p>5: Sexta</p></li>
+                <li><p>6: Sábado</p></li>
             </ul>
         </div>
         <div class="form">
